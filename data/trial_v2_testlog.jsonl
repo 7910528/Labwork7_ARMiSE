@@ -1,0 +1,9 @@
+{"task_id": 21, "condition": "list", "repeat": 1, "strict": [["pass", ""], ["pass", ""], ["pass", ""]], "lenient": [["pass", ""], ["pass", ""], ["pass", ""]]}
+{"task_id": 21, "condition": "sections", "repeat": 1, "strict": [["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"]], "lenient": [["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"]]}
+{"task_id": 21, "condition": "paragraph", "repeat": 1, "strict": [], "lenient": [["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"], ["assert_fail", "AssertionError"]]}
+{"task_id": 22, "condition": "paragraph", "repeat": 1, "strict": [], "lenient": [["pass", ""], ["pass", ""], ["pass", ""]]}
+{"task_id": 22, "condition": "list", "repeat": 1, "strict": [["pass", ""], ["assert_fail", "AssertionError"], ["pass", ""]], "lenient": [["pass", ""], ["assert_fail", "AssertionError"], ["pass", ""]]}
+{"task_id": 22, "condition": "sections", "repeat": 1, "strict": [], "lenient": [["pass", ""], ["assert_fail", "AssertionError"], ["pass", ""]]}
+{"task_id": 23, "condition": "list", "repeat": 1, "strict": [], "lenient": [["pass", ""], ["pass", ""], ["pass", ""]]}
+{"task_id": 23, "condition": "paragraph", "repeat": 1, "strict": [], "lenient": [["pass", ""], ["pass", ""], ["pass", ""]]}
+{"task_id": 23, "condition": "sections", "repeat": 1, "strict": [["pass", ""], ["pass", ""], ["pass", ""]], "lenient": [["pass", ""], ["pass", ""], ["pass", ""]]}

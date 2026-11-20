@@ -1,0 +1,265 @@
+{
+ "template_len_v1": {
+  "paragraph": {
+   "chars": 85,
+   "words": 13
+  },
+  "list": {
+   "chars": 89,
+   "words": 15
+  },
+  "sections": {
+   "chars": 99,
+   "words": 15
+  }
+ },
+ "template_len_v2": {
+  "paragraph": {
+   "chars": 120,
+   "words": 19
+  },
+  "list": {
+   "chars": 126,
+   "words": 22
+  },
+  "sections": {
+   "chars": 144,
+   "words": 22
+  }
+ },
+ "example_prompts_task11": {
+  "paragraph": "Implement the following task in Python: \"Write a python function to remove first and last occurrence of a given character from the string.\". The function must be named remove_Occ. Return only the function code.",
+  "list": "Implement the following task in Python:\n• \"Write a python function to remove first and last occurrence of a given character from the string.\".\n• The function must be named remove_Occ.\n• Return only the function code.",
+  "sections": "Implement the following task in Python:\nTask: \"Write a python function to remove first and last occurrence of a given character from the string.\".\nFunction: The function must be named remove_Occ.\nOutput: Return only the function code."
+ },
+ "entry_points": {
+  "11": "remove_Occ",
+  "12": "sort_matrix",
+  "13": "count_common",
+  "14": "find_Volume",
+  "15": "split_lowerstring",
+  "16": "text_lowercase_underscore",
+  "17": "square_perimeter",
+  "18": "remove_dirty_chars",
+  "19": "test_duplicate",
+  "20": "is_woodall"
+ },
+ "task_texts": {
+  "11": "Write a python function to remove first and last occurrence of a given character from the string.",
+  "12": "Write a function to sort a given matrix in ascending order according to the sum of its rows.",
+  "13": "Write a function to count the most common words in a dictionary.",
+  "14": "Write a python function to find the volume of a triangular prism.",
+  "15": "Write a function to split a string at lowercase letters.",
+  "16": "Write a function to find sequences of lowercase letters joined with an underscore.",
+  "17": "Write a function to find the perimeter of a square.",
+  "18": "Write a function to remove characters from the first string which are present in the second string.",
+  "19": "Write a function to find whether a given array of integers contains any duplicate element.",
+  "20": "Write a function to check if the given number is woodball or not."
+ },
+ "extra_text": {
+  "list": 17,
+  "paragraph": 14,
+  "sections": 7
+ },
+ "code_only": {
+  "list": {
+   "n": 13,
+   "q": 0.538,
+   "f": 0.538
+  },
+  "paragraph": {
+   "n": 16,
+   "q": 0.604,
+   "f": 0.562
+  },
+  "sections": {
+   "n": 23,
+   "q": 0.609,
+   "f": 0.522
+  }
+ },
+ "resp_tokens_median": {
+  "list": 120.0,
+  "paragraph": 102.5,
+  "sections": 59.5
+ },
+ "run_window_utc": [
+  "2026-11-14T08:54:30+00:00",
+  "2026-11-14T09:22:28+00:00"
+ ],
+ "trial_v1": [
+  {
+   "task_id": 21,
+   "condition": "list",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "missing_function",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 21,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 21,
+   "condition": "sections",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "missing_function",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 22,
+   "condition": "list",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 2
+  },
+  {
+   "task_id": 22,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 22,
+   "condition": "sections",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "missing_function",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 23,
+   "condition": "list",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "missing_function",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 23,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "missing_function",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 23,
+   "condition": "sections",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 0
+  }
+ ],
+ "trial_v2": [
+  {
+   "task_id": 21,
+   "condition": "list",
+   "passed_tests": 3,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "none",
+   "lenient_passed_tests": 3
+  },
+  {
+   "task_id": 21,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 21,
+   "condition": "sections",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "wrong_answer",
+   "lenient_passed_tests": 0
+  },
+  {
+   "task_id": 22,
+   "condition": "list",
+   "passed_tests": 2,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "wrong_answer",
+   "lenient_passed_tests": 2
+  },
+  {
+   "task_id": 22,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 3
+  },
+  {
+   "task_id": 22,
+   "condition": "sections",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 2
+  },
+  {
+   "task_id": 23,
+   "condition": "list",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 3
+  },
+  {
+   "task_id": 23,
+   "condition": "paragraph",
+   "passed_tests": 0,
+   "total_tests": 3,
+   "syntax_ok": false,
+   "failure_type": "non_code_text",
+   "lenient_passed_tests": 3
+  },
+  {
+   "task_id": 23,
+   "condition": "sections",
+   "passed_tests": 3,
+   "total_tests": 3,
+   "syntax_ok": true,
+   "failure_type": "none",
+   "lenient_passed_tests": 3
+  }
+ ],
+ "env": {
+  "python": "3.13.16",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.23.0",
+  "platform": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "threads": 2,
+  "scipy": "1.18.1",
+  "pandas": "3.0.5"
+ }
+}

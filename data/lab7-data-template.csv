@@ -1,0 +1,1 @@
+task_id,condition,repeat,passed_tests,total_tests,syntax_ok,full_pass,q,failure_type,extraction,lenient_passed_tests,lenient_syntax_ok,lenient_full_pass,prompt_chars,prompt_words,prompt_tokens,response_tokens,order_index,seed,template_version,timestamp_utc

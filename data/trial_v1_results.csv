@@ -1,0 +1,10 @@
+task_id,condition,repeat,passed_tests,total_tests,syntax_ok,full_pass,q,failure_type,extraction,lenient_passed_tests,lenient_syntax_ok,lenient_full_pass,prompt_chars,prompt_words,prompt_tokens,response_tokens,order_index,seed,template_version,timestamp_utc
+21,list,1,0,3,true,0,0.0,missing_function,fenced,0,true,0,130,24,58,31,1,502111,v1,2026-11-14T08:48:13+00:00
+21,paragraph,1,0,3,false,0,0.0,non_code_text,fence_plus_text,0,true,0,126,22,55,98,3,502101,v1,2026-11-14T08:48:36+00:00
+21,sections,1,0,3,true,0,0.0,missing_function,fenced,0,true,0,140,24,60,31,2,502121,v1,2026-11-14T08:48:18+00:00
+22,list,1,0,3,false,0,0.0,non_code_text,fence_plus_text,2,true,0,160,28,62,151,5,502211,v1,2026-11-14T08:49:29+00:00
+22,paragraph,1,0,3,false,0,0.0,non_code_text,fence_plus_text,0,true,0,156,26,59,128,4,502201,v1,2026-11-14T08:49:00+00:00
+22,sections,1,0,3,true,0,0.0,missing_function,fenced,0,true,0,170,28,64,46,6,502221,v1,2026-11-14T08:49:38+00:00
+23,list,1,0,3,true,0,0.0,missing_function,fenced,0,true,0,165,31,65,27,7,502311,v1,2026-11-14T08:49:43+00:00
+23,paragraph,1,0,3,true,0,0.0,missing_function,fenced,0,true,0,161,29,62,112,8,502301,v1,2026-11-14T08:50:02+00:00
+23,sections,1,0,3,false,0,0.0,non_code_text,fence_plus_text,0,true,0,175,31,67,200,9,502321,v1,2026-11-14T08:50:39+00:00

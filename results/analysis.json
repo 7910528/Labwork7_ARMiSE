@@ -1,0 +1,680 @@
+{
+  "validation_errors": [],
+  "strict_all": {
+    "n_tasks": 10,
+    "conditions": {
+      "paragraph": {
+        "q_mean": 0.32222222222222224,
+        "q_sd": 0.35311663515712677,
+        "f_mean": 0.3,
+        "f_sd": 0.36683497820487065
+      },
+      "list": {
+        "q_mean": 0.23333333333333334,
+        "q_sd": 0.41722185234485754,
+        "f_mean": 0.23333333333333334,
+        "f_sd": 0.41722185234485754
+      },
+      "sections": {
+        "q_mean": 0.4666666666666666,
+        "q_sd": 0.35058250566516236,
+        "f_mean": 0.4,
+        "f_sd": 0.3784308081316978
+      }
+    },
+    "paired_q": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "mean_diff": -0.08888888888888888,
+        "median_diff": 0.0,
+        "better": 1,
+        "equal": 5,
+        "worse": 4,
+        "n": 10
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "mean_diff": 0.14444444444444443,
+        "median_diff": 0.0,
+        "better": 4,
+        "equal": 6,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "mean_diff": 0.2333333333333333,
+        "median_diff": 0.16666666666666666,
+        "better": 5,
+        "equal": 4,
+        "worse": 1,
+        "n": 10
+      }
+    ],
+    "friedman_q": {
+      "stat": 5.428571428571445,
+      "p": 0.06625225915226113,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "paired_f": [
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "mean_diff": -0.06666666666666665,
+        "median_diff": 0.0,
+        "better": 1,
+        "equal": 6,
+        "worse": 3,
+        "n": 10
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "mean_diff": 0.1,
+        "median_diff": 0.0,
+        "better": 2,
+        "equal": 8,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "mean_diff": 0.16666666666666663,
+        "median_diff": 0.0,
+        "better": 4,
+        "equal": 5,
+        "worse": 1,
+        "n": 10
+      }
+    ],
+    "friedman_f": {
+      "stat": 3.125,
+      "p": 0.2096113871510978,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "loo": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "full": -0.08888888888888888,
+        "loo_min": -0.1728395061728395,
+        "loo_max": -0.024691358024691343,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "full": 0.14444444444444443,
+        "loo_min": 0.08641975308641975,
+        "loo_max": 0.1604938271604938,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "full": 0.2333333333333333,
+        "loo_min": 0.18518518518518517,
+        "loo_max": 0.29629629629629634,
+        "sign_flips": 0
+      },
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "full": -0.06666666666666665,
+        "loo_min": -0.14814814814814814,
+        "loo_max": 1.2335811384723961e-17,
+        "sign_flips": 1
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "full": 0.1,
+        "loo_min": 0.037037037037037035,
+        "loo_max": 0.1111111111111111,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "full": 0.16666666666666663,
+        "loo_min": 0.11111111111111109,
+        "loo_max": 0.2222222222222222,
+        "sign_flips": 0
+      }
+    ]
+  },
+  "strict_no_ambiguous": {
+    "n_tasks": 7,
+    "conditions": {
+      "paragraph": {
+        "q_mean": 0.46031746031746035,
+        "q_sd": 0.3359684204526464,
+        "f_mean": 0.42857142857142855,
+        "f_sd": 0.3708990935094578
+      },
+      "list": {
+        "q_mean": 0.33333333333333337,
+        "q_sd": 0.4714045207910317,
+        "f_mean": 0.33333333333333337,
+        "f_sd": 0.4714045207910317
+      },
+      "sections": {
+        "q_mean": 0.6666666666666666,
+        "q_sd": 0.1697250257391052,
+        "f_mean": 0.5714285714285714,
+        "f_sd": 0.317063243737114
+      }
+    },
+    "paired_q": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "mean_diff": -0.12698412698412695,
+        "median_diff": -0.2222222222222222,
+        "better": 1,
+        "equal": 2,
+        "worse": 4,
+        "n": 7
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "mean_diff": 0.2063492063492063,
+        "median_diff": 0.22222222222222215,
+        "better": 4,
+        "equal": 3,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "mean_diff": 0.3333333333333333,
+        "median_diff": 0.4444444444444444,
+        "better": 5,
+        "equal": 1,
+        "worse": 1,
+        "n": 7
+      }
+    ],
+    "friedman_q": {
+      "stat": 5.428571428571426,
+      "p": 0.06625225915226177,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "paired_f": [
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "mean_diff": -0.09523809523809522,
+        "median_diff": 0.0,
+        "better": 1,
+        "equal": 3,
+        "worse": 3,
+        "n": 7
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "mean_diff": 0.14285714285714285,
+        "median_diff": 0.0,
+        "better": 2,
+        "equal": 5,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "mean_diff": 0.23809523809523805,
+        "median_diff": 0.3333333333333333,
+        "better": 4,
+        "equal": 2,
+        "worse": 1,
+        "n": 7
+      }
+    ],
+    "friedman_f": {
+      "stat": 3.124999999999986,
+      "p": 0.2096113871510994,
+      "note": "пошуковий, не підтверджувальний"
+    }
+  },
+  "strict_per_repeat": [
+    {
+      "repeat": 1,
+      "condition": "paragraph",
+      "q": 0.16666666666666666,
+      "f": 0.1
+    },
+    {
+      "repeat": 1,
+      "condition": "list",
+      "q": 0.2,
+      "f": 0.2
+    },
+    {
+      "repeat": 1,
+      "condition": "sections",
+      "q": 0.4666666666666666,
+      "f": 0.4
+    },
+    {
+      "repeat": 2,
+      "condition": "paragraph",
+      "q": 0.5,
+      "f": 0.5
+    },
+    {
+      "repeat": 2,
+      "condition": "list",
+      "q": 0.2,
+      "f": 0.2
+    },
+    {
+      "repeat": 2,
+      "condition": "sections",
+      "q": 0.5666666666666667,
+      "f": 0.5
+    },
+    {
+      "repeat": 3,
+      "condition": "paragraph",
+      "q": 0.3,
+      "f": 0.3
+    },
+    {
+      "repeat": 3,
+      "condition": "list",
+      "q": 0.3,
+      "f": 0.3
+    },
+    {
+      "repeat": 3,
+      "condition": "sections",
+      "q": 0.36666666666666664,
+      "f": 0.3
+    }
+  ],
+  "strict_pooled": {
+    "paragraph": {
+      "q": 0.3222222222222222,
+      "f": 0.3
+    },
+    "list": {
+      "q": 0.23333333333333334,
+      "f": 0.23333333333333334
+    },
+    "sections": {
+      "q": 0.4666666666666667,
+      "f": 0.4
+    }
+  },
+  "lenient_all": {
+    "n_tasks": 10,
+    "conditions": {
+      "paragraph": {
+        "q_mean": 0.4666666666666666,
+        "q_sd": 0.3841867401448871,
+        "f_mean": 0.4,
+        "f_sd": 0.40975753143523946
+      },
+      "list": {
+        "q_mean": 0.5777777777777777,
+        "q_sd": 0.4280943193125893,
+        "f_mean": 0.5333333333333333,
+        "f_sd": 0.4216370213557839
+      },
+      "sections": {
+        "q_mean": 0.5555555555555556,
+        "q_sd": 0.41573970964154905,
+        "f_mean": 0.4666666666666666,
+        "f_sd": 0.4499657051403686
+      }
+    },
+    "paired_q": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "mean_diff": 0.11111111111111112,
+        "median_diff": 0.0,
+        "better": 4,
+        "equal": 6,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "mean_diff": 0.08888888888888889,
+        "median_diff": 0.0,
+        "better": 3,
+        "equal": 7,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "mean_diff": -0.02222222222222222,
+        "median_diff": 0.0,
+        "better": 1,
+        "equal": 8,
+        "worse": 1,
+        "n": 10
+      }
+    ],
+    "friedman_q": {
+      "stat": 5.692307692307719,
+      "p": 0.058067227423702614,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "paired_f": [
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "mean_diff": 0.13333333333333333,
+        "median_diff": 0.0,
+        "better": 4,
+        "equal": 6,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "mean_diff": 0.06666666666666668,
+        "median_diff": 0.0,
+        "better": 2,
+        "equal": 8,
+        "worse": 0,
+        "n": 10
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "mean_diff": -0.06666666666666667,
+        "median_diff": 0.0,
+        "better": 0,
+        "equal": 8,
+        "worse": 2,
+        "n": 10
+      }
+    ],
+    "friedman_f": {
+      "stat": 6.000000000000037,
+      "p": 0.04978706836786302,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "loo": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "full": 0.11111111111111112,
+        "loo_min": 0.08641975308641975,
+        "loo_max": 0.1234567901234568,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "full": 0.08888888888888889,
+        "loo_min": 0.0617283950617284,
+        "loo_max": 0.09876543209876544,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "full": -0.02222222222222222,
+        "loo_min": -0.03703703703703704,
+        "loo_max": 0.012345679012345685,
+        "sign_flips": 1
+      },
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "full": 0.13333333333333333,
+        "loo_min": 0.1111111111111111,
+        "loo_max": 0.14814814814814814,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "full": 0.06666666666666668,
+        "loo_min": 0.037037037037037035,
+        "loo_max": 0.07407407407407408,
+        "sign_flips": 0
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "full": -0.06666666666666667,
+        "loo_min": -0.07407407407407407,
+        "loo_max": -0.037037037037037035,
+        "sign_flips": 0
+      }
+    ]
+  },
+  "lenient_no_ambiguous": {
+    "n_tasks": 7,
+    "conditions": {
+      "paragraph": {
+        "q_mean": 0.6666666666666666,
+        "q_sd": 0.2566001196398337,
+        "f_mean": 0.5714285714285714,
+        "f_sd": 0.3708990935094579
+      },
+      "list": {
+        "q_mean": 0.8253968253968254,
+        "q_sd": 0.1909165984409388,
+        "f_mean": 0.7619047619047619,
+        "f_sd": 0.25197631533948484
+      },
+      "sections": {
+        "q_mean": 0.7936507936507936,
+        "q_sd": 0.19697894676175967,
+        "f_mean": 0.6666666666666666,
+        "f_sd": 0.38490017945975047
+      }
+    },
+    "paired_q": [
+      {
+        "pair": "list−paragraph",
+        "metric": "q",
+        "mean_diff": 0.15873015873015875,
+        "median_diff": 0.11111111111111105,
+        "better": 4,
+        "equal": 3,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "q",
+        "mean_diff": 0.126984126984127,
+        "median_diff": 0.0,
+        "better": 3,
+        "equal": 4,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−list",
+        "metric": "q",
+        "mean_diff": -0.031746031746031744,
+        "median_diff": 0.0,
+        "better": 1,
+        "equal": 5,
+        "worse": 1,
+        "n": 7
+      }
+    ],
+    "friedman_q": {
+      "stat": 5.692307692307684,
+      "p": 0.05806722742370364,
+      "note": "пошуковий, не підтверджувальний"
+    },
+    "paired_f": [
+      {
+        "pair": "list−paragraph",
+        "metric": "f",
+        "mean_diff": 0.19047619047619047,
+        "median_diff": 0.3333333333333333,
+        "better": 4,
+        "equal": 3,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−paragraph",
+        "metric": "f",
+        "mean_diff": 0.09523809523809525,
+        "median_diff": 0.0,
+        "better": 2,
+        "equal": 5,
+        "worse": 0,
+        "n": 7
+      },
+      {
+        "pair": "sections−list",
+        "metric": "f",
+        "mean_diff": -0.09523809523809523,
+        "median_diff": 0.0,
+        "better": 0,
+        "equal": 5,
+        "worse": 2,
+        "n": 7
+      }
+    ],
+    "friedman_f": {
+      "stat": 5.999999999999995,
+      "p": 0.04978706836786409,
+      "note": "пошуковий, не підтверджувальний"
+    }
+  },
+  "lenient_per_repeat": [
+    {
+      "repeat": 1,
+      "condition": "paragraph",
+      "q": 0.36666666666666664,
+      "f": 0.3
+    },
+    {
+      "repeat": 1,
+      "condition": "list",
+      "q": 0.6,
+      "f": 0.6
+    },
+    {
+      "repeat": 1,
+      "condition": "sections",
+      "q": 0.5333333333333333,
+      "f": 0.4
+    },
+    {
+      "repeat": 2,
+      "condition": "paragraph",
+      "q": 0.5,
+      "f": 0.5
+    },
+    {
+      "repeat": 2,
+      "condition": "list",
+      "q": 0.5,
+      "f": 0.5
+    },
+    {
+      "repeat": 2,
+      "condition": "sections",
+      "q": 0.6666666666666667,
+      "f": 0.6
+    },
+    {
+      "repeat": 3,
+      "condition": "paragraph",
+      "q": 0.5333333333333333,
+      "f": 0.4
+    },
+    {
+      "repeat": 3,
+      "condition": "list",
+      "q": 0.6333333333333333,
+      "f": 0.5
+    },
+    {
+      "repeat": 3,
+      "condition": "sections",
+      "q": 0.4666666666666667,
+      "f": 0.4
+    }
+  ],
+  "lenient_pooled": {
+    "paragraph": {
+      "q": 0.4666666666666667,
+      "f": 0.4
+    },
+    "list": {
+      "q": 0.5777777777777777,
+      "f": 0.5333333333333333
+    },
+    "sections": {
+      "q": 0.5555555555555556,
+      "f": 0.4666666666666667
+    }
+  },
+  "variability": {
+    "mean_within_sd": 0.1762306585938514,
+    "mean_between_sd": 0.14675950426844922,
+    "cells_with_varying_repeats": 12,
+    "cells_total": 30
+  },
+  "failure_types": {
+    "paragraph": {
+      "missing_function": 0,
+      "non_code_text": 14,
+      "none": 9,
+      "runtime_error": 3,
+      "wrong_answer": 4
+    },
+    "list": {
+      "missing_function": 1,
+      "non_code_text": 17,
+      "none": 7,
+      "runtime_error": 2,
+      "wrong_answer": 3
+    },
+    "sections": {
+      "missing_function": 1,
+      "non_code_text": 7,
+      "none": 12,
+      "runtime_error": 0,
+      "wrong_answer": 10
+    }
+  },
+  "mean_prompt_chars": {
+    "paragraph": 193.5,
+    "list": 199.5,
+    "sections": 217.5
+  },
+  "mean_prompt_words": {
+    "paragraph": 30.7,
+    "list": 33.7,
+    "sections": 33.7
+  },
+  "mean_prompt_tokens": {
+    "paragraph": 66.7,
+    "list": 70.7,
+    "sections": 73.7
+  },
+  "mean_response_tokens": {
+    "paragraph": 106.9,
+    "list": 124.3,
+    "sections": 78.6
+  }
+}
